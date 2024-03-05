@@ -1,8 +1,8 @@
-this function match two tables according to an specific column.
-This is what I was using before getting familiar with pd.nerge in python. Reinventing the wheel!
-yazdan salimi
-salimiyazdan@gmail.com
-created on 13.10.2022
+%this function match two tables according to an specific column.
+%This is what I was using before getting familiar with pd.nerge in python. Reinventing the wheel!
+%yazdan salimi
+%salimiyazdan@gmail.com
+%created on 13.10.2022
 function [merged_struct, merged_table, repeated_rows] = match_two_tables(table_referrence, varname_reference, delimiter_reference, selected_redference, table_info,var_name_info,delimiter_info,selected_info,criteria_compare)
 try
     struct_reference = table2struct(table_referrence);
